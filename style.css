@@ -1,0 +1,81 @@
+/* Estilo básico da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.inputs input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.resultados p {
+    font-size: 18px;
+    color: #333;
+}
+
+.resultados span {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.imagens img {
+    width: 45%;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h1, footer h2, footer h3 {
+    margin: 5px;
+}
+
+/* Estilo de layout responsivo */
+@media screen and (max-width: 600px) {
+    .imagens img {
+        width: 100%;
+    }
+
+    .inputs input {
+        width: 90%;
+    }
+
+    button {
+        width: 90%;
+    }
+}
